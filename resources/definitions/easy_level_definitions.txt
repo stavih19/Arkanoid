@@ -1,0 +1,71 @@
+
+# Level 1
+# Single block direct hit
+
+
+START_LEVEL
+level_name:Direct Hit
+ball_velocities:0,10
+background:color(black)
+paddle_speed:50
+paddle_width:160
+block_definitions:resources\definitions\standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:1
+START_BLOCKS
+-------r
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# After the yest in the beach
+
+START_LEVEL
+level_name:After the test
+ball_velocities:0,10 0,10 0,10 0,10 0,10
+background:image(resources\background_images\InTheBeach.jpg)
+paddle_speed:50
+paddle_width:550
+block_definitions:resources\definitions\BeachBlockDefinition.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:15
+START_BLOCKS
+-
+-
+-c-c-c-c-c-
+-c-c-c-c-c-
+-
+-
+
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
+
+# Level 3
+# the moon with different block definitions
+
+START_LEVEL
+level_name:Square Moon
+ball_velocities:0,10
+background:image(resources\background_images\night.jpg)
+paddle_speed:50
+paddle_width:160
+block_definitions:resources\definitions\moon_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:100
+num_blocks:4
+START_BLOCKS
+--ll--
+--ll--
+END_BLOCKS
+END_LEVEL

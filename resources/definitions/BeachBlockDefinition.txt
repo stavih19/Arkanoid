@@ -1,0 +1,8 @@
+# default values for blocks
+default height:50 width:60 stroke:color(black) hit_points:1
+
+# block definitions
+bdef symbol:c hit_points:2 fill:image(resources\block_images\CoconutOpen.jpg) fill:image(resources\block_images\CoconutClose.jpg)
+
+# spacers definitions
+sdef symbol:- width:50
